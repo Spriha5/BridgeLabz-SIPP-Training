@@ -28,8 +28,8 @@ public class factorialstore{
 
     
         System.out.print("Factors of " + number + " are: ");
-        for (int i = 0; i < index; i++) {
-            System.out.print(factors[i] + " ");
+        for (int j = 0; j < index; j++) {
+            System.out.print(factors[j] + " ");
         }
 
         sc.close();
