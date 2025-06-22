@@ -10,8 +10,8 @@ public class time_zone {
 	     ZonedDateTime pst = ZonedDateTime.now(ZoneId.of("America/Los_Angeles"));
 
 	        System.out.println(" GMT: " + gmt);
-	        System.out.println("IST: " + ist);
-	        System.out.println("PST: " + pst);
+	        System.out.println("IST : " + ist);
+	        System.out.println("PST : " + pst);
 	}
 
 }
