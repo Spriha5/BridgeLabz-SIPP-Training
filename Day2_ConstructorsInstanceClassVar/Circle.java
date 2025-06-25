@@ -1,9 +1,9 @@
 package Day2_ConstructorsInstanceClassVar;
 
 public class Circle {
-	float radius;
+	double radius;
 	
-	public Circle(float radius)
+	public Circle(double radius)
 	{
 	 this();
 	 this.radius=radius;
@@ -15,6 +15,6 @@ public class Circle {
 	}
 public static void main(String[] args)
 {
-	Circle obj=new Circle(5.6f);
+	Circle obj=new Circle(5.6);
 }
 }
